@@ -3,23 +3,8 @@
 # * http://superuser.com/a/648046
 # * http://ivyl.0xcafe.eu/2013/02/03/refining-zsh/
 
-# Engage Vi mode!
-bindkey -v
-
-# Use vim cli mode
-bindkey '^P' up-history
-bindkey '^N' down-history
-
-# backspace and ^h working even after
-# returning from command mode
-bindkey '^?' backward-delete-char
-bindkey '^h' backward-delete-char
-
-# ctrl-w removed word backwards
-bindkey '^w' backward-kill-word
-
-# ctrl-r starts searching history backward
-bindkey '^r' history-incremental-search-backward
+# Engage Emacs mode!
+bindkey -e
 
 # Reduce delay in switching between modes
 export KEYTIMEOUT=1

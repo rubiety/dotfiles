@@ -7,7 +7,7 @@ source ~/.zsh/git
 source ~/.zsh/heroku
 source ~/.zsh/history
 source ~/.zsh/java
-source ~/.zsh/mcmire.zsh-theme
+source ~/.zsh/zsh-theme
 source ~/.zsh/nvm
 source ~/.zsh/perl6
 source ~/.zsh/python
