@@ -8,7 +8,7 @@ alias view-functions="less $FUNCTIONS_FILE"
 alias reload-env="source $ALIASES_FILE && source $FUNCTIONS_FILE"
 
 alias gtd="vim ~/Notes/GTD.md"
-alias penguin="curl http://www.flightleverage.com/penguin"
+alias penguin="curl http://flightleverage.com/penguin"
 alias cdw="cd ~/Workspace"
 alias cdwv="cd ~/Workspace/vendor"
 alias work="tmuxinator"
